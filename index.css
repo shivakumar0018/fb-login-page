@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login_page{
+    height: 100vh;
+    background: #fff;
+}
+.login_container{
+    max-width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.content_part.form_part{
+    width: 50%;
+
+}
+.content_part img{
+    height: 106px;
+}
+.content_part h2{
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #1c1e21;
+    padding-left: 18px;
+    padding-right: 20px;
+}
+.form_part{
+    padding: 50px;
+    position: relative;
+
+}
+.form_box{
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1),0 8px 16px rgba(0,0,0,.1);
+    width: 396px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: 30%;
+
+}
+.input_box{
+    width: 100%;
+    
+}
+.input_box input{
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #dddfe2;
+    padding: 15px 20px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 17px;
+}
+.input_box input:focus{
+    border-color: #1877f2;
+}
+.Login_btn{
+    margin-top: 10%;
+    width: 100%;
+    background: #1877e2;
+    outline: none;
+    border-style: none;
+    color: #fff;
+    padding: 12px 30px;
+    font-size:20px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    border-radius: 6px;
+    cursor:pointer;
+}
+.forget_btn{
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #1877ef;
+    text-decoration: none;
+    font-size: 14px;
+}
+.forget_btn:hover{
+    text-decoration: underline;
+
+}
+.devider{
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    border: 1px solid #dddfe2;
+}
+.signup_btn{
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top:30px ;
+    padding:14px 10px;
+    font-size: 18px;
+    border-style: none;
+    background: #00c510;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    letter-spacing:0.5px;
+}
+
+.signin{
+    color:#fff;
+
+}
+
